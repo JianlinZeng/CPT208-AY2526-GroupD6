@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CPT208 HCI Project</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:"Poppins",sans-serif;
+background:#f6f7fb;
+color:#333;
+line-height:1.6;
+}
+
+/* NAVBAR */
+
+nav{
+background:#1f2937;
+color:white;
+display:flex;
+justify-content:space-between;
+padding:18px 50px;
+align-items:center;
+}
+
+nav h2{
+font-weight:600;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(120deg,#6366f1,#8b5cf6);
+color:white;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:650px;
+margin:auto;
+}
+
+/* SECTION */
+
+section{
+padding:70px 40px;
+max-width:1100px;
+margin:auto;
+}
+
+/* PROJECT */
+
+.project-box{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* TEAM */
+
+.team-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+margin-top:30px;
+}
+
+.member{
+background:white;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.member:hover{
+transform:translateY(-6px);
+}
+
+.member img{
+width:110px;
+height:110px;
+border-radius:50%;
+margin-bottom:10px;
+}
+
+/* TECH */
+
+.tech-list{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+margin-top:20px;
+}
+
+.tech{
+background:#e0e7ff;
+padding:10px 18px;
+border-radius:20px;
+font-size:14px;
+}
+
+/* DEMO */
+
+.demo{
+text-align:center;
+margin-top:20px;
+}
+
+/* FOOTER */
+
+footer{
+background:#1f2937;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:60px;
+}
+
+button{
+padding:12px 22px;
+background:#6366f1;
+border:none;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#4f46e5;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAV -->
+
+<nav>
+
+<h2>CPT208 HCI</h2>
+
+<ul>
+<li><a href="#project">Project</a></li>
+<li><a href="#team">Team</a></li>
+<li><a href="#tech">Technology</a></li>
+<li><a href="#demo">Demo</a></li>
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<h1>Human Computer Interaction Project</h1>
+
+<p>
+Coursework project for CPT208. Our system demonstrates user-centered
+interface design principles and focuses on intuitive interaction,
+visual feedback and usability.
+</p>
+
+</div>
+
+<!-- PROJECT -->
+
+<section id="project">
+
+<h2>Project Introduction</h2>
+
+<div class="project-box">
+
+<p>
+This project explores how human-computer interaction principles
+can improve digital system usability. The system aims to create
+a user-friendly interface that allows efficient interaction
+between users and software systems.
+</p>
+
+<br>
+
+<p>
+Key objectives include:
+</p>
+
+<ul>
+
+<li>Design intuitive user interfaces</li>
+
+<li>Improve interaction efficiency</li>
+
+<li>Provide responsive feedback</li>
+
+<li>Evaluate usability and user experience</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<!-- TEAM -->
+
+<section id="team">
+
+<h2>Team Members</h2>
+
+<div class="team-grid">
+
+<div class="member">
+
+<img src="https://api.dicebear.com/7.x/adventurer/svg?seed=wang">
+
+<h3>Yixin Hao</h3>
+
+<p>ICS Student</p>
+
+<p>
+Responsible for system implementation and data processing.
+</p>
+
+</div>
+
+
+<div class="member">
+
+<img src="https://api.dicebear.com/7.x/adventurer/svg?seed=anna">
+
+<h3>Jianlin Zeng</h3>
+
+<p>UI Designer</p>
+
+<p>
+Responsible for visual design and user interface layout.
+</p>
+
+</div>
+
+
+<div class="member">
+
+<img src="https://api.dicebear.com/7.x/adventurer/svg?seed=tom">
+
+<h3>Mingyang Zou</h3>
+
+<p>Frontend Developer</p>
+
+<p>
+Implemented the interactive features using web technologies.
+</p>
+
+</div>
+
+
+<div class="member">
+
+<img src="https://api.dicebear.com/7.x/adventurer/svg?seed=lisa">
+
+<h3>Yizhi Wang</h3>
+
+<p>Research & Testing</p>
+
+<p>
+Responsible for user testing and usability evaluation.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TECHNOLOGY -->
+
+<section id="tech">
+
+<h2>Technologies Used</h2>
+
+<div class="tech-list">
+
+<div class="tech">HTML</div>
+
+<div class="tech">CSS</div>
+
+<div class="tech">JavaScript</div>
+
+<div class="tech">GitHub Pages</div>
+
+<div class="tech">UI/UX Design</div>
+
+</div>
+
+</section>
+
+<!-- DEMO -->
+
+<section id="demo">
+
+<h2>System Demo</h2>
+
+<div class="demo">
+
+<p>Project repository and demonstration:</p>
+
+<br>
+
+<a href="https://github.com/yourname/project">
+
+<button>View on GitHub</button>
+
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>CPT208 Human Computer Interaction Coursework</p>
+
+<p>2026</p>
+
+</footer>
+
+</body>
+
+</html>
